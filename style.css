@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background-image: url("images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin: 10px 10px 10px 10px;
+}
+input[type="text"] {
+  background-color: #8dbcef;
+  color: white;
+  border: none;
+}
+
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+.container {
+  margin-top: 20px;
+  background-color: rgb(243, 225, 232);
+  min-height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.task-area {
+  border: 1px solid rgb(234, 164, 180);
+}
+.task-tabs {
+  display: flex;
+  border-bottom: 1px solid rgb(239, 148, 156);
+  position: relative;
+}
+.task-tabs div {
+  padding: 1em;
+}
+#under-line {
+  height: 4px;
+  background-color: rgb(239, 111, 145);
+  position: absolute;
+  width: 65px;
+  left: 0px;
+  top: 60px;
+  padding: 0px;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+.input-area {
+  padding: 0px 2px 10px 0px;
+}
